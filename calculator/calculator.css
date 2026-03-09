@@ -1,0 +1,52 @@
+body{
+    margin:0;
+    padding:0;
+
+
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.calbody{
+    width: 300px;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 7%;
+
+     
+    margin: auto;
+    background-color:blue;
+}
+.calculations{
+    width: 95%;
+    font-size: 50px;
+    font-family: monospace;
+    height: 100px;
+    padding-right: 10px;
+    border-radius: 1px solid black;
+
+
+}
+.keypad{
+    display: grid;
+    grid-template-columns: repeat(4 ,1fr);
+    width: 100%;
+    background-color: gray;
+    gap:5px;
+    
+}
+.keys{
+    height: 60px;
+    border: none;
+    background: #e6e6e6;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+    cursor: pointer;
+
+
+
+    font-size: 20px;
+}
